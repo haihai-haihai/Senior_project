@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: #fffab7;
+    font-size: 100%;
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fffab7;
+}
+
+main{
+    margin-top: 100px;
+}
+
+h1,h2{
+    color: #00aa71;
+    /* ↓↓↓フォントが変更されない↓↓↓ */
+    font-family: "游ゴシック";
+}
+
+image{
+    max-width: 100%;
+    margin: 60px auto 0;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #fffab7;
+}
+
+footer div{
+    margin: 0%;
+    color: #00aa71;
+    line-height: 100px;
+}
