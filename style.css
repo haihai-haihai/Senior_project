@@ -91,22 +91,22 @@ h3{
 
 
 
-/* ゲームの箇条書きリスト */
+/* ゲームページの本文 */
 #gamelist{
     text-align: center; 
 }
 .gamelist1{
-    text-align: left; margin-left: auto; margin-right: auto; max-width: 475px;
+    text-align: left; margin-left: auto; margin-right: auto; max-width: 460px;
     text-align: justify;
 }
 
 
-/* 成果の本文 */
+/* 活動の成果のページの本文 */
 #resulttext{
     text-align: center; 
 }
 .resulttext1{
-    text-align: left; margin-left: auto; margin-right: auto; width: 475px;
+    text-align: left; margin-left: auto; margin-right: auto; width: 500px;
     text-align: justify;
 }
 
