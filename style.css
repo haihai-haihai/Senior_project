@@ -66,7 +66,7 @@ h2 {
     color: #69BD83;
     font-family:"游ゴシック",sans-serif;
     text-align: center;
-    padding-top: 250px; /* headerの高さ */
+    padding-top: 150px; /* headerの高さ */
     margin-top: -100px;
 }
 
@@ -158,7 +158,7 @@ ul li{
     left: 0%;
     width:100%;
     height: 2px;
-    background: #00aa71;
+    background: #FCAF17;
     display: block;
     transform-origin: right top;
     transform: scale(0, 1);
@@ -170,9 +170,18 @@ ul li{
     transform: scale(1, 1)
 }
 
+.btn2{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    border-bottom: 2px solid #FCAF17;
+}
 
 
-/* 各ページに表示するのメニューバー */
+
+/* 各ページに表示するメニューバー */
 nav ul {
     list-style: none;
     padding-top: 3rem;
@@ -214,7 +223,7 @@ nav {
     top: 0;
     left:-300px;
     z-index: 50;
-    background-color: rgba(105, 189, 131, .8);
+    background-color: rgba(0, 85, 46,.90);
     transition: transform .5s;
 }
   
@@ -289,13 +298,13 @@ nav {
 
 
 /* レスポンジブ対応 */
-@media all and (max-width: 800px){
-    .menulist{
+@media all and (max-width: 730px){
+    #menulist{
         display:none;
     }
 
-    .menulist{
-        display:block;
-    }
+
+    
 
 }
+
