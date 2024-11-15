@@ -1,91 +1,95 @@
 <!DOCTYPE html>
 <html lang="ja">
- <head>
-     <meta charset="UTF-8">
-     <title>耳と手で見る</title>
-     <meta name="description" content="手と耳を使った、視覚障害を学ぶツールのデザイン">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="common.css" rel="stylesheet">
-     <link rel="stylesheet" href="style.css">
- </head>
+
+<head>
+   <meta charset="UTF-8">
+   <title>耳と手で見る</title>
+   <meta name="description" content="手と耳を使った、視覚障害を学ぶツールのデザイン">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="common.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
 
 
- <body class="page">
-    <header>
-    <h1><a href="index.html">耳と手で見る</a></h1>
+<body class="page">
+   <header>
+      <h1><a href="index.html">耳と手で見る</a></h1>
 
-    <input type="checkbox" id="navBtn">  
-    <label for="navBtn" class="open"><span></span></label>
+      <input type="checkbox" id="navBtn">
+      <label for="navBtn" class="open"><span></span></label>
 
-    <nav>
-      <ul>
-         <li><a href="index.html">ホーム</a></li>
-         <li><a href="game.html">ゲームの紹介</a>
-            <ul>
-               <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
-               <li><a href="game2.html" class="btn2">何が落ちたかな？ゲーム</a></li>
-               <li><a href="game3.html" class="btn4">サウンド記憶ゲーム</a></li>
-               <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
-             </ul>
-         </li>
+      <nav>
+         <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="game.html">ゲームの紹介</a>
+               <ul>
+                  <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
+                  <li><a href="game2.html" class="btn2">何が落ちたかな？ゲーム</a></li>
+                  <li><a href="game3.html" class="btn4">サウンド記憶ゲーム</a></li>
+                  <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
+               </ul>
+            </li>
 
-         <li><a href="result.html">活動の成果</a></li>
-      </ul>
-   </nav>
-   
-   <div id="menulist">
-      <ul>
-         <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
-         <li><a href="game2.html" class="btn2">何が落ちたかな？ゲーム</a></li>
-         <li><a href="game3.html" class="btn4">サウンド記憶ゲーム</a></li>
-         <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
-      </ul>
-   </div>
-    </header>
+            <li><a href="result.html">活動の成果</a></li>
+         </ul>
+      </nav>
+
+      <div id="menulist">
+         <ul>
+            <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
+            <li><a href="game2.html" class="btn2">何が落ちたかな？ゲーム</a></li>
+            <li><a href="game3.html" class="btn4">サウンド記憶ゲーム</a></li>
+            <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
+         </ul>
+      </div>
+   </header>
 
 
-    <!-- 何が落ちたかな？ゲームの紹介 -->
+   <!-- 何が落ちたかな？ゲームの紹介 -->
    <section class="maintext">
-    <main>
-       <h2 id="game2">何が落ちたかな？ゲーム</h2>
-       <h3>ゲームの概要</h3>
-       <div id="gamelist">
-         <ol class="gamelist1">
-            <li>概要：ものが落ちた音を聞いて、手探りで落ちたものを探し出すゲーム</li>
-            <li>対象年齢：全年齢対象</li>
-            <li>プレイ人数：２人推奨、複数人も可</li>
-            <li>プレイ時間：３〜5分</li>
-         </ol>
+      <main>
+         <h2 id="game2">何が落ちたかな？ゲーム</h2>
 
-       <h3>ゲームの準備</h3>
-         <ol class="gamelist1">
-            <li>クレヨン、マーカーペン、のりをそれぞれ2つずつ準備する。</li>
-            <li>文房具を入れるかご</li>
-         </ol>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/xxBKhYya528?si=IeJ9WxBpuf7XRpCv"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+         </iframe>
 
-       <h3>ゲームの流れと決着</h3>
-         <ol class="gamelist1">
-            <li>文房具を落とす人と探す人に分かれてゲームを行う。</li>
-            <li>落とす人が文房具を一つ選び、机の上に落とす。</li>
-            <li>探す人は目を瞑ったまま音を聞き、落ちたものと同じものをカゴの中から取り出す。</li>
-            <li>落としたものと同じものを手に取っていたらチャレンジ成功！</li>
-            <li>役割を変え、1〜4を繰り返す。</li>
-         </ol>
+         <h3>ゲームのきほん</h3>
+         <div id="gamelist">
+            <ol class="gamelist1">
+               <li>何をする？：ものが落ちた音を聞いて、手探りで落ちたものを探し出すゲーム</li>
+               <li>対象年齢：全年齢対象</li>
+               <li>プレイ人数：２人推奨、複数人も可</li>
+               <li>プレイ時間：３〜5分</li>
+            </ol>
 
-       <h3>ヒント</h3>
-         <ol class="gamelist1">
-            <li>どこに落とすかで音が変わるため、机など硬い物の上だとゲームがしやすくなる。</li>
-            <li>音を聞いて物の硬さや重さなどを想像できると判別しやすくなる。</li>
-            <li>あらかじめ、音や手触りを確認しておくと、ゲームをしやすくなる。</li>
-         </ol>
-        </div>
+            <h3>準備するもの</h3>
+            <ol class="gamelist1">
+               <li>クレヨン、マーカーペン、のりをそれぞれ2つずつ準備する。</li>
+               <li>文房具を入れるかご</li>
+            </ol>
 
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/xxBKhYya528?si=IeJ9WxBpuf7XRpCv"
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe>
+            <h3>遊び方</h3>
+            <ol class="gamelist1">
+               <li>文房具を落とす人と探す人に分かれてゲームを行う。</li>
+               <li>落とす人が文房具を一つ選び、机の上に落とす。</li>
+               <li>探す人は目を瞑ったまま音を聞き、落ちたものと同じものをカゴの中から取り出す。</li>
+               <li>落としたものと同じものを手に取っていたらチャレンジ成功！</li>
+               <li>役割を変え、1〜4を繰り返す。</li>
+            </ol>
 
-    </main>
+            <h3>楽しく遊ぶためのヒント</h3>
+            <ol class="gamelist1">
+               <li>どこに落とすかで音が変わるため、机など硬い物の上だとゲームがしやすくなる。</li>
+               <li>音を聞いて物の硬さや重さなどを想像できると判別しやすくなる。</li>
+               <li>あらかじめ、音や手触りを確認しておくと、ゲームをしやすくなる。</li>
+            </ol>
+         </div>
+
+
+      </main>
    </section>
 
 
@@ -94,5 +98,6 @@
       <div><a href="#">ページトップへ戻る</a></div>
    </footer>
 
- </body>
+</body>
+
 </html>

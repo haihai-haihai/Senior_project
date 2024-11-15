@@ -1,96 +1,108 @@
 <!DOCTYPE html>
 <html lang="ja">
- <head>
-     <meta charset="UTF-8">
-     <title>耳と手で見る</title>
-     <meta name="description" content="手と耳を使った、視覚障害を学ぶツールのデザイン">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="common.css" rel="stylesheet">
-     <link rel="stylesheet" href="style.css">
- </head>
+
+<head>
+   <meta charset="UTF-8">
+   <title>耳と手で見る</title>
+   <meta name="description" content="手と耳を使った、視覚障害を学ぶツールのデザイン">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="common.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
 
 
- <body class="page">
-    <header>
-    <h1><a href="index.html">耳と手で見る</a></h1>
+<body class="page">
+   <header>
+      <h1><a href="index.html">耳と手で見る</a></h1>
 
-    <input type="checkbox" id="navBtn">  
-    <label for="navBtn" class="open"><span></span></label>
+      <input type="checkbox" id="navBtn">
+      <label for="navBtn" class="open"><span></span></label>
 
-    <nav>
-      <ul>
-         <li><a href="index.html">ホーム</a></li>
-         <li><a href="game.html">ゲームの紹介</a>
-            <ul>
-               <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
-               <li><a href="game2.html" class="btn4">何が落ちたかな？ゲーム</a></li>
-               <li><a href="game3.html" class="btn2">サウンド記憶ゲーム</a></li>
-               <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
-             </ul>
-         </li>
+      <nav>
+         <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="game.html">ゲームの紹介</a>
+               <ul>
+                  <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
+                  <li><a href="game2.html" class="btn4">何が落ちたかな？ゲーム</a></li>
+                  <li><a href="game3.html" class="btn2">サウンド記憶ゲーム</a></li>
+                  <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
+               </ul>
+            </li>
 
-         <li><a href="result.html">活動の成果</a></li>
-      </ul>
-   </nav>
-   
-   <div id="menulist">
-      <ul>
-         <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
-         <li><a href="game2.html" class="btn4">何が落ちたかな？ゲーム</a></li>
-         <li><a href="game3.html" class="btn2">サウンド記憶ゲーム</a></li>
-         <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
-      </ul>
+            <li><a href="result.html">活動の成果</a></li>
+         </ul>
+      </nav>
+
+      <div id="menulist">
+         <ul>
+            <li><a href="game.html" class="btn4">どこかな？ゲーム</a></li>
+            <li><a href="game2.html" class="btn4">何が落ちたかな？ゲーム</a></li>
+            <li><a href="game3.html" class="btn2">サウンド記憶ゲーム</a></li>
+            <li><a href="game4.html" class="btn4">何で書いた!?ゲーム</a></li>
+         </ul>
+      </div>
+   </header>
+
+
+   <!-- サウンド記憶ゲームの紹介 -->
+   <div class="wrapper">
+      <section class="maintext">
+         <main>
+            <h2 id="game3">サウンド記憶ゲーム</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xxBKhYya528?si=IeJ9WxBpuf7XRpCv"
+               title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <h3>ゲームのきほん</h3>
+            <div id="gamelist">
+               <ol class="gamelist1">
+                  <li>何をする？：異なる種類の文房具が連続して落ちてくる音を聞き、落ちた順番通りに何が落ちたかを記憶するゲーム</li>
+                  <li>対象年齢：全年齢対象</li>
+                  <li>プレイ人数：２人推奨、複数人も可</li>
+                  <li>プレイ時間：３〜5分</li>
+               </ol>
+
+               <h3>準備するもの</h3>
+               <ol class="gamelist1">
+                  <li>鉛筆、マーカーペン、クレヨンなど3〜5種類の文房具をそれぞれ2つ以上</li>
+               </ol>
+
+               <h3>遊び方</h3>
+               <div class="game-video">
+                  <img src="image/main_visual.jpg" alt="手と耳を使ったゲームで子供たちが遊んでいる様子">
+                  <img src="image/main_visual.jpg" alt="手と耳を使ったゲームで子供たちが遊んでいる様子">
+               </div>
+
+               <ol class="gamelist1">
+                  <li>文房具を落とす側と聞く側に分かれて、聞く側は目を瞑る。</li>
+                  <li>落とす側は3〜5個の文房具を選び、順番に落とす。(同じものは2個まで可とする)</li>
+                  <li>聞く側は何がどの順番で落ちたかを聞いて記憶する。</li>
+                  <li>全員目を開いて、聞く側の人が手元の文房具を落ちた順番に並べる。順番が合っていればチャレンジ成功！</li>
+                  <li>役割を変え、1〜4を繰り返す。</li>
+               </ol>
+
+               <h3>楽しく遊ぶためのヒント</h3>
+               <ol class="gamelist1">
+                  <li>似た様な音がするものを交互に落とすと難易度が上がる。</li>
+                  <li>順番に落とす間隔を狭めると相手の記憶を混乱させることができる。</li>
+                  <li>事前にそれぞれどんな音がするのか確認しておくと聴き分けやすくなる。</li>
+               </ol>
+            </div>
+
+
+         </main>
+      </section>
    </div>
-    </header>
-
-
-     <!-- サウンド記憶ゲームの紹介 -->
-   <section class="maintext">
-    <main>
-       <h2 id="game3">サウンド記憶ゲーム</h2>
-       <h3>ゲームの概要</h3>
-       <div id="gamelist">
-         <ol class="gamelist1">
-            <li>概要：異なる種類の文房具が連続して落ちてくる音を聞き、落ちた順番通りに何が落ちたかを記憶するゲーム</li>
-            <li>対象年齢：全年齢対象</li>
-            <li>プレイ人数：２人推奨、複数人も可</li>
-            <li>プレイ時間：３〜5分</li>
-         </ol>
-
-       <h3>ゲームの準備</h3>
-         <ol class="gamelist1">
-            <li>鉛筆、マーカーペン、クレヨンなど3〜5種類の文房具をそれぞれ2つ以上</li>
-         </ol>
-
-       <h3>ゲームの流れと決着</h3>
-         <ol class="gamelist1">
-            <li>文房具を落とす側と聞く側に分かれて、聞く側は目を瞑る。</li>
-            <li>落とす側は3〜5個の文房具を選び、順番に落とす。(同じものは2個まで可とする)</li>
-            <li>聞く側は何がどの順番で落ちたかを聞いて記憶する。</li>
-            <li>全員目を開いて、聞く側の人が手元の文房具を落ちた順番に並べる。順番が合っていればチャレンジ成功！</li>
-            <li>役割を変え、1〜4を繰り返す。</li>
-         </ol>
-
-       <h3>ヒント</h3>
-         <ol class="gamelist1">
-            <li>似た様な音がするものを交互に落とすと難易度が上がる。</li>
-            <li>順番に落とす間隔を狭めると相手の記憶を混乱させることができる。</li>
-            <li>事前にそれぞれどんな音がするのか確認しておくと聴き分けやすくなる。</li>
-         </ol>
-        </div>
-
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/xxBKhYya528?si=IeJ9WxBpuf7XRpCv"
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe>
-
-    </main>
-   </section>
 
 
    <footer>
       <div><a href="#">ページトップへ戻る</a></div>
    </footer>
 
- </body>
+</body>
+
 </html>
