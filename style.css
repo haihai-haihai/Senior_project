@@ -66,12 +66,12 @@ h2 {
     color: #69BD83;
     font-family:"游ゴシック",sans-serif;
     text-align: center;
-    padding-top: 150px; /* headerの高さ */
+    padding-top: 175px; /* headerの高さ */
     margin-top: -100px;
 }
 
 h3{
-    padding-top: 40px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -93,7 +93,7 @@ h3{
 }
 
 .game-video img{
-    width: 45%;
+    width: 48%;
     gap: 1em;
 }
 
