@@ -3,6 +3,7 @@
 body{
     /* background-color: #EBF4EF; */
     background-color: #FFFFFF;
+    font-family:"ヒラギノ丸ゴシック Pro",sans-serif;
     font-size: 100%;
 }
 
@@ -58,13 +59,13 @@ main p{
 
 h1,h1 a{
     color: #69BD83;
-    font-family:"游ゴシック",sans-serif;
+    /* font-family:"游ゴシック",sans-serif; */
     text-align: center;
 }
 
 h2 {
     color: #69BD83;
-    font-family:"游ゴシック",sans-serif;
+    /* font-family:"游ゴシック",sans-serif; */
     text-align: center;
     padding-top: 175px; /* headerの高さ */
     margin-top: -100px;
